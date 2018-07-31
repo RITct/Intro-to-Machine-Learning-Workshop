@@ -4,7 +4,6 @@
 </p>
 
 ## Day 1
-
 1. Intro to machine learning
 2. Reducing Loss
 3. Training and Testing sets
