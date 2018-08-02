@@ -11,7 +11,20 @@
 5. First Steps with Tensorflow
 
 ## Intro to machine learning
-content goes here
+
+Machine learning is the art of making sense of data !
+
+1. It do things normal code can't do and it helps to reduce the time you spend for coding.   
+
+2. In machine learning we don't need to tell the algorithm what to do, we only need to show them some examples.
+
+### Types of machine learning algorithms:
+- Supervised Learning
+- Unsupervised Learning
+- Reinforcement Learning
+
+
+
 ## Reducing Loss
 content goes here
 ## Training and Testing Sets
@@ -50,9 +63,13 @@ y = w1x1 + w2x2 + ... wNxN
 ```
 and p is the predicted output.
 
+
+
 <p align="center">
   <img src="https://developers.google.com/machine-learning/crash-course/images/SigmoidFunction.png" height="400" width="500" alt="sigmoid graph"/>
 </p>
+
+
 
 **Loss function for Logistic regression is Log Loss**
 
