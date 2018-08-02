@@ -67,8 +67,71 @@ A classification model predicts discrete values. It can make predictions that an
 - Is this an image of a cat or dog or Wade wilson.
 - Pedicting whether a movie belongs to DC or Marvel(based on the dark screen may be) 
 
+**Linear Regression**
+
+Linear regression is a method for finding the straight line or hyperplane that best fits a set of points.
+
+The line equation is,
+
+```
+y = mx + b
+
+```
+
+In machine learning we use this convention instead,
+
+```
+y' = b + w1x1
+```
+Where,
+
+- y' is the label we are predicting.
+- b is the bias.
+- w1 is the weight of feature 1. Weight is the same concept as the "slope" 
+ in the traditional equation of a line.
+- x1 is a feature (a known input).
+
+To predict, just substitute the x1 values to the trained model.
+
+A sophisticated model can use more than one features.
+
+```
+y' = b + w1x1 + w2x2 + w3x3 + .... + wNxN
+```
+1. **Training** a model simply means learning (determining) good values for all the weights and the bias from labeled examples. 
+
+2. In supervised learning, a machine learning algorithm builds a model by examining many examples and attempting to find a model that minimizes loss; this process is called **empirical risk minimization**.
+
+3. Loss is the penalty for a bad prediction. If the model's prediction is perfect, the loss is zero; otherwise, the loss is greater. 
+
+4. The goal of training a model is to find a set of weights and biases that have low loss, on average, across all examples.
+
+First we have to find the loss.
+
+**L2 Loss/square loss** is a popular loss function. It is the given as
+
+```
+= the square of the difference between the label and the prediction
+= (observation - prediction(x))2
+= (y - y')2
+```
+**Mean square error (MSE)** is the average squared loss per example over the whole dataset.
+
+<p align="center">
+  <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/mse.png"alt="MSE"/>
+</p>
+
 ## Reducing Loss
-content goes here
+Reducing the loss is similar to the **"Hot and cold game"** kids play!
+
+A Machine Learning model is trained by starting with an initial guess for the weights and bias and iteratively adjusting those guesses until learning the weights and bias with the lowest possible loss.
+
+**Gradient Descent**
+
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/1600/0*rBQI7uBhBKE8KT-X.png"alt="Gradient Descent"/>
+</p>
+
 ## Training and Testing Sets
 <br>
 
