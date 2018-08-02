@@ -50,7 +50,22 @@ Features of house price predicting ML model can be,
 - Locality of the house
 
 **Labels:**
+
 A label is the thing we're predicting. It can be the price of a product, class probability in a classification.
+
+**Regression Vs Classification**
+
+A regression model is used to predict continuous values.
+
+For example, T
+
+- The probability of Captain America Dying in Avengers 4.
+- Price of houses in california.
+
+A classification model predicts discrete values. It can make predictions that answer questions like,
+
+- Is this an image of a cat or dog or wade wilson.
+- Pedicting whether a movie belongs to DC or Marvel(based on the dark screen may be) 
 
 ## Reducing Loss
 content goes here
