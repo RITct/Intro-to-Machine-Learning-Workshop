@@ -17,7 +17,7 @@ content goes here
 ## Training and Testing Sets
 <br>
 
-1. Our goal is to create a machine learning model that generalizes well to new data. Our test  set serves as a proxy for new data.
+1. Our goal is to create a machine learning model that generalizes well to new data.
 
 2. We train the model using a Training set and the test set act as a proxy for new data!
 
@@ -28,6 +28,8 @@ content goes here
 
 - **training set** — a subset to train a model.
 - **test set** — a subset to test the trained model.
+
+### Wait, but there is a problem...
 
 3. Dividing the data set into two sets is a good idea, but not a panacea. You can greatly reduce your chances of overfitting by partitioning the data set into the three subsets shown in the following figure:
 
