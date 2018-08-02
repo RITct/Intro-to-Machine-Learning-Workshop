@@ -64,7 +64,7 @@ For example, T
 
 A classification model predicts discrete values. It can make predictions that answer questions like,
 
-- Is this an image of a cat or dog or wade wilson.
+- Is this an image of a cat or dog or Wade wilson.
 - Pedicting whether a movie belongs to DC or Marvel(based on the dark screen may be) 
 
 ## Reducing Loss
