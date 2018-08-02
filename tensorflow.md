@@ -21,10 +21,9 @@ content goes here
   <img src="http://blogs-images.forbes.com/janakirammsv/files/2017/04/ML-FaaS-1.png" height="360" width="740" alt="train-test divison"/>
 </p>
 
+1. Our goal is to create a machine learning model that generalizes well to new data. 
 
-### 1. Our goal is to create a machine learning model that generalizes well to new data. 
-
-### 2. We train the model using a Training set and the test set act as a proxy for new data!
+2. We train the model using a Training set and the test set act as a proxy for new data!
 
 
 <p align="center">
