@@ -15,3 +15,17 @@ content goes here
 ## Reducing Loss
 content goes here
 ## Training and Testing Sets
+<br>
+
+- **training set** — a subset to train a model.
+- **test set** — a subset to test the trained model.
+
+<p align="center">
+  <img src="https://am207.github.io/2017/wiki/images/train-test.png" height="400" width="800" alt="train-test divison"/>
+</p>
+
+- **Validation set** - A subset of the data set—disjunct from the training set—that you use to adjust hyperparameters.
+
+<p align="center">
+  <img src="https://am207.github.io/2017/wiki/images/train-validate-test.png" height="400" width="800" alt="train-test divison"/>
+</p>
