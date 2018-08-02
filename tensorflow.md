@@ -33,5 +33,17 @@ content goes here
 - **training set** — a subset to train a model.
 - **test set** — a subset to test the trained model.
 
+## Logistic Regression
+
+1. Many problems require a probability estimate as output.
+2. Logistic regression is an extremely efficient mechanism for calculating probabilities.
+3. a sigmoid function, defined as follows, produces output that always falls between 0 and 1.
+
+<p align="center">
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw89aMI5qlmImjji48z1agmJOhIJDSJvZgrHD9WPR4q783tMEMkw" height="100" width="120" alt="train-test divison"/>
+</p>
+
+
+
 
 
