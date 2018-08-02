@@ -20,10 +20,22 @@ Machine learning is the art of making sense of data !
 
 ### Types of machine learning algorithms:
 - Supervised Learning
+
+<p>
+  <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/images-2.png"alt="supervised learning"/>
+</p>
+
 - Unsupervised Learning
+
+<p>
+  <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/unsupervised_learning.png" height="200" width="400" alt="Un-Supervised Learning"/>
+</p>
+
 - Reinforcement Learning
 
-
+<p>
+  <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/1*HvoLc50Dpq1ESKuejhICHg.png" alt="Reinforcement Learning"/>
+</p>
 
 ## Reducing Loss
 content goes here
