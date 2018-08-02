@@ -17,15 +17,24 @@ content goes here
 ## Training and Testing Sets
 <br>
 
-- **training set** — a subset to train a model.
-- **test set** — a subset to test the trained model.
+1. Our goal is to create a machine learning model that generalizes well to new data. Our test  set serves as a proxy for new data.
+
+2. We train the model using a Training set and the test set act as a proxy for new data!
+
 
 <p align="center">
   <img src="https://am207.github.io/2017/wiki/images/train-test.png" height="400" width="800" alt="train-test divison"/>
 </p>
 
-- **Validation set** - A subset of the data set—disjunct from the training set—that you use to adjust hyperparameters.
+- **training set** — a subset to train a model.
+- **test set** — a subset to test the trained model.
+
+3. 
 
 <p align="center">
   <img src="https://am207.github.io/2017/wiki/images/train-validate-test.png" height="400" width="800" alt="train-test divison"/>
 </p>
+
+
+- **Validation set** - A subset of the data set—disjunct from the training set—that you use to adjust hyperparameters.
+
