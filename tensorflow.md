@@ -23,18 +23,19 @@ content goes here
 
 
 <p align="center">
-  <img src="https://am207.github.io/2017/wiki/images/train-test.png" height="400" width="800" alt="train-test divison"/>
+  <img src="https://am207.github.io/2017/wiki/images/train-test.png" height="360" width="740" alt="train-test divison"/>
 </p>
 
 - **training set** — a subset to train a model.
 - **test set** — a subset to test the trained model.
 
-3. 
+3. Dividing the data set into two sets is a good idea, but not a panacea. You can greatly reduce your chances of overfitting by partitioning the data set into the three subsets shown in the following figure:
 
 <p align="center">
-  <img src="https://am207.github.io/2017/wiki/images/train-validate-test.png" height="400" width="800" alt="train-test divison"/>
+  <img src="https://am207.github.io/2017/wiki/images/train-validate-test.png" height="360" width="740" alt="train-test divison"/>
 </p>
 
+4. Use the validation set to evaluate results from the training set. Then, use the test set to double-check your evaluation after the model has "passed" the validation set.
 
 - **Validation set** - A subset of the data set—disjunct from the training set—that you use to adjust hyperparameters.
 
