@@ -37,6 +37,21 @@ Machine learning is the art of making sense of data !
   <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/1*HvoLc50Dpq1ESKuejhICHg.png" alt="Reinforcement Learning"/>
 </p>
 
+In supervised learning we create “models”, a model is basically a function that takes in simple inputs and produces useful predictions. Here we have features and labels in the dataset.
+
+**Features:**
+
+A feature is an input variable—the x variable in simple linear regression. A simple machine learning project might use a single feature, while a more sophisticated machine learning project could use millions of features.
+
+Features of house price predicting ML model can be,
+
+- Total number of rooms.
+- Age of house
+- Locality of the house
+
+**Labels:**
+A label is the thing we're predicting. It can be the price of a product, class probability in a classification.
+
 ## Reducing Loss
 content goes here
 ## Training and Testing Sets
