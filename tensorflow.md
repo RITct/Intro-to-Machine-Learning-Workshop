@@ -43,13 +43,16 @@ content goes here
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSw89aMI5qlmImjji48z1agmJOhIJDSJvZgrHD9WPR4q783tMEMkw" height="100" width="150" alt="sigmoid function"/>
 </p>
 
-This is the plot of sigmoid function!
+Where,
+
+```
+y = w1x1 + w2x2 + ... wNxN
+```
+and p is the predicted output.
 
 <p align="center">
   <img src="https://developers.google.com/machine-learning/crash-course/images/SigmoidFunction.png" height="400" width="500" alt="sigmoid graph"/>
 </p>
-
-
 
 
 
