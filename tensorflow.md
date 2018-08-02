@@ -126,11 +126,18 @@ Reducing the loss is similar to the **"Hot and cold game"** kids play!
 
 A Machine Learning model is trained by starting with an initial guess for the weights and bias and iteratively adjusting those guesses until learning the weights and bias with the lowest possible loss.
 
-**Gradient Descent**
+### Gradient Descent
 
 <p align="center">
-  <img src="https://cdn-images-1.medium.com/max/1600/0*rBQI7uBhBKE8KT-X.png"alt="Gradient Descent"/>
+  <img src="https://cdn-images-1.medium.com/max/1600/0*rBQI7uBhBKE8KT-X.png" height="300" width="500" alt="Gradient Descent"/>
 </p>
+
+### Learning Rate
+
+<p align="center">
+  <img src="https://cdn-images-1.medium.com/max/1600/0*QwE8M4MupSdqA3M4.png" height="300" width="500" alt="Gradient Descent"/>
+</p>
+
 
 ## Training and Testing Sets
 <br>
@@ -171,7 +178,7 @@ and p is the predicted output.
 
 
 <p align="center">
-  <img src="https://developers.google.com/machine-learning/crash-course/images/SigmoidFunction.png" height="400" width="500" alt="sigmoid graph"/>
+  <img src="https://developers.google.com/machine-learning/crash-course/images/SigmoidFunction.png" height="300" width="600" alt="sigmoid graph"/>
 </p>
 
 
