@@ -54,5 +54,8 @@ and p is the predicted output.
   <img src="https://developers.google.com/machine-learning/crash-course/images/SigmoidFunction.png" height="400" width="500" alt="sigmoid graph"/>
 </p>
 
+**Loss function for Logistic regression is Log Loss**
 
-
+<p align="center">
+  <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/logloss.png" alt="sigmoid graph"/>
+</p>
