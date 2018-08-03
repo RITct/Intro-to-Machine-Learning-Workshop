@@ -188,3 +188,7 @@ and p is the predicted output.
 <p align="center">
   <img src="https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/logloss.png" alt="sigmoid graph"/>
 </p>
+
+## First Steps with Tensorflow
+
+Lets start !
