@@ -57,7 +57,7 @@ A label is the thing we're predicting. It can be the price of a product, class p
 
 A regression model is used to predict continuous values.
 
-For example, T
+For example,
 
 - The probability of Captain America Dying in Avengers 4.
 - Price of houses in california.
