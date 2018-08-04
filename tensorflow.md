@@ -201,3 +201,5 @@ and p is the predicted output.
 ## First Steps with Tensorflow
 
 Lets start !
+
+https://bit.ly/2KrnCJ5
