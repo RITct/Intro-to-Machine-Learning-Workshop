@@ -14,9 +14,9 @@
 
 Machine learning is the art of making sense of data !
 
-1. It do things normal code can't do and it helps to reduce the time you spend for coding.   
+1. It does things normal code can't do and it helps to reduce the time you spend for coding.   
 
-2. In machine learning we don't need to tell the algorithm what to do, we only need to show them some examples.
+2. In machine learning we don't need to tell the algorithm what to do, we only need to show it some examples.
 
 ### Types of machine learning algorithms:
 - Supervised Learning
@@ -162,6 +162,15 @@ A Machine Learning model is trained by starting with an initial guess for the we
 
 1. Many problems require a probability estimate as output.
 2. Logistic regression is an extremely efficient mechanism for calculating probabilities.
+
+```
+P(thenga|day) = 0.05
+coconut falling on head =
+0.05*365 
+~= 18
+```
+
+
 3. a sigmoid function, defined as follows, produces output that always falls between 0 and 1.
 
 <p align="center">
