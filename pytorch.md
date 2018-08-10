@@ -86,4 +86,21 @@ import numpy as np
 a = np.ones(5)
 b = torch.from_numpy(a)
 ```
+### Autograd, Tensor and Function.
+
+Autograd is automatic differentiation by calling ```.backward()```
+
+```torch.Tensor``` is the central class of the package. If you set its attribute .requires_grad as True, it starts to track all operations on it. When you finish your computation you can call .backward() and have all the gradients computed automatically.
+
+```autograd.Function``` implements forward and backward definitions of an autograd operation.
+
+### Training a neural network
+
+- Define the neural network that has some learnable parameters (or weights)
+- terate over a dataset of inputs
+- Process input through the network
+- Compute the loss (how far is the output from being correct)
+- Propagate gradients back into the network’s parameters
+- Update the weights of the network, typically using a simple update rule:
+``` weight = weight - learning_rate * gradient```
 
