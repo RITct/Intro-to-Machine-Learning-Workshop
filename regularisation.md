@@ -34,3 +34,16 @@
 * Sometimes, we have to express preference for one feature over the other 
 * For example, we might express a preference for linear features over non-linear features 
 * There are many ways of expressing preferences, together they are called "Regularisation"
+* There are many type of Regularisation,L2 regularisation,Dropout regularisation
+* In dropout regularisation, we take out random nodes for every iteration.
+* The intuition behind dropout regularisation is that, we can't rely on one feature,so we have to spread out the weights
+
+
+### Validation Set
+
+* Till now,we talked about the test set and the training set
+* However,there is one more set,called the Validation set 
+* Earlier,we talked about test set,which we use to test how well the model generalises to new examples
+* But,it is also important that we don't use the test set to fine tune our Hyperparameters
+* Therefore,we need a new set,this is the validation set.It is always constructed from the training set,by splitting it into     two
+* We use the validation set to estimate the generalisation error and update our hyperparameters accordingly 
