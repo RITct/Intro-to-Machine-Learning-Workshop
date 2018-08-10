@@ -37,4 +37,53 @@ Neural networks are universal function optimisers.
   <img src="http://cs231n.github.io/assets/cnn/cnn.jpeg" alt="convnet"/>
 </p>
 
+## Intro to PyTorch
+
+Its a scientific computation package in python which helps to use the power of GPUs and its a deep learning research platform.
+
+### Tensors
+
+Tensors are similar to numpy ndarrays but it can be also be used on GPUs for fast computations.
+
+```python
+import torch
+```
+
+Lets construct an empty matrix
+
+```python
+x = torch.empty(5, 3)
+```
+output..
+```
+tensor([[-5.0254e+18,  4.5609e-41, -5.0254e+18],
+        [ 4.5609e-41,  1.6395e-43,  1.3873e-43],
+        [ 1.4574e-43,  4.4842e-44,  1.4293e-43],
+        [ 1.4714e-43,  1.5134e-43,  1.4153e-43],
+        [ 4.4842e-44,  1.5554e-43,  1.5975e-43]])
+```
+
+other tensor operators are ```torch.rand()```, ```torch.zeros()```, ```torch.tensor()``` ..etc. 
+
+### Operations
+
+Addition,
+
+```python
+print(torch.add(x, y))
+```
+
+Converting a torch tensor to numpy and vice versa is simple in PyTorch.
+
+```python
+a = torch.ones(5)
+a = a.numpy()
+```
+In reverse,
+
+```python
+import numpy as np
+a = np.ones(5)
+b = torch.from_numpy(a)
+```
 
