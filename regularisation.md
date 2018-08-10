@@ -25,6 +25,10 @@
 
 ### Regularisation 
 
+<p>
+  <img src="https://github.com/akshaydevml/Intro-to-Machine-Learning-Workshop/blob/master/regularisation_1.jpg" height="200" width="400" alt="Regularisation"/>
+</p>
+
 * To alleviate the problem of underfitting and overfitting,we implement Regularisation
 * Last lecture, we talked about features,and how each feature contributes differently to the loss function 
 * Sometimes, we have to express preference for one feature over the other 
