@@ -14,6 +14,11 @@
 * The first one is, the training error should be small
 * Secondly, the gap between the training and test error should be small
 * These two factors are the reason for the two biggest challenges in ML, Overfitting and Underfitting  
+
+<p>
+  <img src="https://github.com/akshaydevml/Intro-to-Machine-Learning-Workshop/blob/master/uofitting_1.jpg" height="200" width="400" alt="Over and Under fitting"/>
+</p>
+
 * Undeffitting occurs,when the model is not able to obtain a sufficiently low error value
 * Overfitting occurs, when the gap between the training and test error is too large
 
