@@ -18,3 +18,10 @@
 * Overfitting occurs, when the gap between the training and test error is too large
 
 
+### Regularisation 
+
+* To alleviate the problem of underfitting and overfitting,we implement Regularisation
+* Last lecture, we talked about features,and how each feature contributes differently to the loss function 
+* Sometimes, we have to express preference for one feature over the other 
+* For example, we might express a preference for linear features over non-linear features 
+* There are many ways of expressing preferences, together they are called "Regularisation"
