@@ -18,3 +18,5 @@
   <img src="Neural_Network.PNG" height="200" width="400" alt="Neural Netwrok"/>
 </p>
 
+- Now to compute the cost function,we use a technique called,forward propagation
+- We multiply all the nodes with their transition matrices and feed it as input to the node of the next layer 
