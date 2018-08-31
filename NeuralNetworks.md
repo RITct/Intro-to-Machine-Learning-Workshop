@@ -10,7 +10,7 @@
 - They are called,"hidden',because,what goes in them,is unknown to us,and we have no role in setting their state
 - The dimensionality of these hidden layers represent,the "width" of the model
 - Each layer in the Neural Network,consists of "nodes" or also called "units"
-- Nodes are linked to each other by a "transition matrix" - 
+- Nodes are linked to each other by a "transition matrix"  
 - A "transition matrix,is a matrix of weights,controlling the functions,mapping from layer j to layer j+1 
 - Each unit has it's own activation function 
  
@@ -20,3 +20,15 @@
 
 - Now to compute the cost function,we use a technique called,forward propagation
 - We multiply all the nodes with their transition matrices and feed it as input to the node of the next layer 
+- After getting the value for each node,we apply the activation function,on it 
+- This keeps propagating forward through the layers untl it reaches the output layer
+- At the output layer,the neural network learns a function,called the hypothesis function,which is used to determine the output
+- What makes Neural Networks different from other methods of Machine Learning is that,we cannot determine which "features" the model learns
+- We can only change the task and hyperparameters,keep iterating to get the best result 
+
+## Backpropagation 
+- Now that we have computed the cost function,we need an algorithm to minimise it
+- Our old friend Gradient Descent will not work here,we need a new algorithm
+- We need a new algorithm,this is where,Backpropagation comes in
+- 
+
