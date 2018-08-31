@@ -25,10 +25,17 @@
 - At the output layer,the neural network learns a function,called the hypothesis function,which is used to determine the output
 - What makes Neural Networks different from other methods of Machine Learning is that,we cannot determine which "features" the model learns
 - We can only change the task and hyperparameters,keep iterating to get the best result 
+<p>
+  <img src="FP_1.PNG" height="200" width="400" alt="Neural Netwrok"/>
+</p>
 
 ## Backpropagation 
 - Now that we have computed the cost function,we need an algorithm to minimise it
 - Our old friend Gradient Descent will not work here,we need a new algorithm
-- We need a new algorithm,this is where,Backpropagation comes in
-- 
+- We need a new algorithm,this is where,Backpropagation comes in,it works similar to gradient descent by minimising the cost function 
+- As the name suggests,backpropagation works in reverse compared to forward propagation 
+- The intution behind Backpropagation is to calculate the error of node "j",in layer "l" 
+- So we are going to capture the error of activation of each node 
+- We assign each error ,for each node to a new variable and then calculate the gradient with respect to the cost function
+- After minimising the cost function,we update it
 
