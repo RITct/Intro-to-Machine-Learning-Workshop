@@ -25,8 +25,10 @@
 - At the output layer,the neural network learns a function,called the hypothesis function,which is used to determine the output
 - What makes Neural Networks different from other methods of Machine Learning is that,we cannot determine which "features" the model learns
 - We can only change the task and hyperparameters,keep iterating to get the best result 
+
+
 <p>
-  <img src="FP_1.PNG" height="200" width="400" alt="Neural Netwrok"/>
+  <img src="FP_1.png" height="200" width="400" alt="Forward Propagation" />
 </p>
 
 ## Backpropagation 
