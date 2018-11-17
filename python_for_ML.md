@@ -1,2 +1,2 @@
 # Python for machine learning
-![ml workshop](iammlengneer.jpg?raw=true "mlworkshop")
+![ml workshop](https://github.com/GopikrishnanSasikumar/Intro-to-Machine-Learning-Workshop/blob/master/iammlengineer.jpg)
